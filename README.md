@@ -25,8 +25,9 @@ bcs350-proj-02/
 ```
 
 ## How to Play
-Visit the quiz website here.
+Visit the quiz website [here](https://jesseazizi.github.io/bcs350-proj-02/).
 
 ## How to Run
 
 ## Database Schema
+![ERD for the account system](assets/ERD.png)
