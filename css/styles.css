@@ -39,3 +39,8 @@ p {
     background-color: #007BFF;
     color: white;
 }
+
+.login-signup-field {
+    width: 200px;
+    font-size: 1.2em;
+}

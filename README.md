@@ -28,6 +28,7 @@ bcs350-proj-02/
 Visit the quiz website [here](https://jesseazizi.github.io/bcs350-proj-02/).
 
 ## How to Run
+To host your own version of the website, clone this repository and either run it on your own web server or through GitHub Pages.
 
 ## Database Schema
 ![ERD for the account system](assets/ERD.png)
