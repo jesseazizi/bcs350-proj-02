@@ -1,4 +1,4 @@
-# bcs350-proj-02
+# quiz-website
 Online quiz application
 
 ## About
@@ -6,7 +6,7 @@ This is the GitHub repository for an online quiz website. This application utili
 
 ## Project Structure
 ```
-bcs350-proj-02/
+quiz-website/
 │
 ├── index.html          (Home page)
 ├── play.html           (Gameplay page)
@@ -25,7 +25,7 @@ bcs350-proj-02/
 ```
 
 ## How to Play
-Visit the quiz website [here](https://jesseazizi.github.io/bcs350-proj-02/).
+Visit the quiz website [here](https://jesseazizi.github.io/quiz-website/).
 
 ## How to Run
 To host your own version of the website, clone this repository and either run it on your own web server or through GitHub Pages.
