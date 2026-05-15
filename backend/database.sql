@@ -1,14 +1,18 @@
-CREATE TABLE user (
+CREATE DATABASE IF NOT EXISTS quiz_app;
+USE quiz_app;
+
+CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) NOT NULL,
+    username VARCHAR(50) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE TABLE quiz_attempt (
+CREATE TABLE IF NOT EXISTS quiz_attempts (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
     num_correct_questions INT NOT NULL,
     num_total_questions INT NOT NULL,
-
-    FOREIGN KEY (user_id) REFERENCES users(id)
+    played_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
